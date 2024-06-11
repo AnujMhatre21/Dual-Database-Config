@@ -30,6 +30,7 @@ import jakarta.persistence.PersistenceUnit;
 		"com.learn.test.test2repo.entity.db1" }, entityManagerFactoryRef = "postgresEntityManagerFactoryFipData", transactionManagerRef = "postgresTransactionManager")
 public class UserPostgresConfig extends HikariConfig {
 
+	
 	@Autowired
 	private Environment environment;
 
